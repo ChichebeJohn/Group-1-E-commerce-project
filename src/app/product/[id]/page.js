@@ -1,7 +1,7 @@
-import ProductGallery from "@/components/product-gallery"
-import ProductInfo from "@/components/product-info"
-import ProductTabs from "@/components/product-tabs"
-import RelatedItems from "@/components/related-items"
+import ProductGallery from "@/app/components/product-gallery"
+import ProductInfo from "@/app/components/product-info"
+import ProductTabs from "@/app/components/product-tabs"
+// import RelatedItems from "@/components/related-items"
 import styles from "./page.module.css"
 
 export default function ProductPage() {
@@ -36,7 +36,7 @@ export default function ProductPage() {
         <ProductInfo product={product} />
       </div>
       <ProductTabs product={product} />
-      <RelatedItems />
+      {/* <RelatedItems /> */}
     </main>
   )
 }
