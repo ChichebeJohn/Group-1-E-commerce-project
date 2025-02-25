@@ -1,0 +1,23 @@
+.hero {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #f3f1ff, #ffffff);
+    /* overflow: hidden; */
+    padding-left: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner1 {
+    /* width: 100%;
+    height: 100%; */
+    /* margin-bottom: 100px; */
+    margin-right: 220px;
+  }
+
+.banner2{
+    margin-bottom: 20px;
+}
+  
+  
